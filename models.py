@@ -5,7 +5,7 @@ models_app = Blueprint('Models', __name__)
 
 
 
-DATABASE_LOC = 'C:/Users/beau/PycharmProjects/BuchananTutoringBackEnd/database.db'
+DATABASE_LOC = 'database.db'
 try:
     db = SqliteDatabase(DATABASE_LOC)
 except:
